@@ -1,4 +1,4 @@
-package com.mcwoc.tcrcreator;
+package com.mcwoc.tcr;
 
 import com.tencentcloudapi.common.Credential;
 import com.tencentcloudapi.common.exception.TencentCloudSDKException;
@@ -8,7 +8,7 @@ import com.tencentcloudapi.tcr.v20190924.TcrClient;
 import com.tencentcloudapi.tcr.v20190924.models.CreateRepositoryPersonalRequest;
 import com.tencentcloudapi.tcr.v20190924.models.CreateRepositoryPersonalResponse;
 
-public class Main {
+public class TCRCreator {
     public static void main(String[] args) {
         String id = System.getenv("TCR_SECRET_ID");
         String key = System.getenv("TCR_SECRET_KEY");
