@@ -25,8 +25,7 @@
                 <createSourcesJar>false</createSourcesJar>
                 <createTestSourcesJar>false</createTestSourcesJar>
                 <transformers>
-                    <transformer
-                            implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                    <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                         <mainClass>com.mcwoc.tcr.TCRCreator</mainClass>
                     </transformer>
                 </transformers>
@@ -48,7 +47,7 @@
             <artifactId>tencentcloud-sdk-java</artifactId>
             <!-- go to https://search.maven.org/search?q=tencentcloud-sdk-java and get the latest version. -->
             <!-- 请到https://search.maven.org/search?q=tencentcloud-sdk-java查询所有版本，最新版本如下 -->
-            <version>3.1.217</version>
+            <version>3.1.275</version>
         </dependency>
     </dependencies>
 </project>
